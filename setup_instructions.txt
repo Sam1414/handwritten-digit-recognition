@@ -1,0 +1,19 @@
+// open project dir in visual studio and in its terminal type
+>npm init
+
+// install dependencies
+
+Express:
+>npm install --save express
+
+Nodemon:
+>npm install --save nodemon
+In package.json in scripts add a new line
+"start": "nodemon server.js"
+
+Tensorflow Js Node:
+>npm install --save @tensorflow/tfjs-node
+
+TFJS-VIS (in browser visualisation):
+npm install --save @tensorflow/tfjs-vis
+
