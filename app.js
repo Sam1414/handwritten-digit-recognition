@@ -9,6 +9,6 @@ function tf_load_status() {
     console.log('Hello TensorFlow');
 }
 
-app.use(express.static('static'))
+app.use(express.static('docs'))
 
 module.exports = app;
